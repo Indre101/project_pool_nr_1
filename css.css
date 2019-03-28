@@ -1,14 +1,29 @@
-@charset "utf-8";
-/* CSS Document */
+body {
+  width: 100vw;
+  height: 100vh;
+}
 
 .fly {
-background-image: url(media/graphics/alive.png);
-width: 200px;
-height: 200px;
-background-repeat: no-repeat;}
 
-.blood {
-background-image: url(media/graphics/blood.png);
-width: 200px;
-height: 200px;
-background-repeat: no-repeat;}
+  background-image: url(media/graphics/alive.png);
+  /* background-size: 100vw; */
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+
+}
+
+#instructions {
+  background-color: burlywood;
+  color: darkred;
+  width: 500px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border-radius: 25% 10%
+}
