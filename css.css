@@ -8,3 +8,10 @@ height: 200px;
 background-repeat: no-repeat;
 }
 
+
+.fly {
+background-image: url(media/graphics/alive.png);
+width: 200px;
+height: 200px;
+background-repeat: no-repeat;
+}
