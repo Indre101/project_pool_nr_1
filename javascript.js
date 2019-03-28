@@ -14,7 +14,6 @@ function deadfly() {
 
 }
 
-// hjkælkhghjklælk
 
 function moveFly() {
   fly.style.backgroundImage = "";
